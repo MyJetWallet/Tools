@@ -1,11 +1,14 @@
 # JetWallet Priject
 
 
-Repository | server | client | aa
----------- | ------ | ------ | --
-[Service.TradeHistory](https://github.com/MyJetWallet/Service.TradeHistory) | ![CI test build](https://github.com/MyJetWallet/Service.TradeHistory/workflows/CI%20test%20build/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/Service.TradeHistory/workflows/Release%20API%20client%20nuget/badge.svg) |
-[Service.MatchingEngine.PriceSource](https://github.com/MyJetWallet/Service.MatchingEngine.PriceSource) | ![CI test build](https://github.com/MyJetWallet/Service.MatchingEngine.PriceSource/workflows/CI%20test%20build/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/Service.MatchingEngine.PriceSource/workflows/Release%20API%20client%20nuget/badge.svg) |
-[Service.BitGo.SignTransaction](https://github.com/MyJetWallet/Service.BitGo.SignTransaction) | ![CI test build](https://github.com/MyJetWallet/Service.BitGo.SignTransaction/workflows/CI%20test%20build/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/Service.BitGo.SignTransaction/workflows/Release%20API%20client%20nuget/badge.svg) |
+Repository | server, client 
+---------- | -------------- 
+[Service.TradeHistory](https://github.com/MyJetWallet/Service.TradeHistory) | ![CI test build](https://github.com/MyJetWallet/Service.TradeHistory/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.TradeHistory/workflows/Release%20API%20client%20nuget/badge.svg) 
+[Service.MatchingEngine.PriceSource](https://github.com/MyJetWallet/Service.MatchingEngine.PriceSource) | ![CI test build](https://github.com/MyJetWallet/Service.MatchingEngine.PriceSource/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.MatchingEngine.PriceSource/workflows/Release%20API%20client%20nuget/badge.svg) 
+[Service.BitGo.SignTransaction](https://github.com/MyJetWallet/Service.BitGo.SignTransaction) | ![CI test build](https://github.com/MyJetWallet/Service.BitGo.SignTransaction/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.BitGo.SignTransaction/workflows/Release%20API%20client%20nuget/badge.svg) 
+
+
+
 [Service.Bitgo.DepositDetector](https://github.com/MyJetWallet/Service.Bitgo.DepositDetector) | ![CI test build](https://github.com/MyJetWallet/Service.Bitgo.DepositDetector/workflows/CI%20test%20build/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/Service.Bitgo.DepositDetector/workflows/Release%20API%20client%20nuget/badge.svg) |
 [Service.Balances](https://github.com/MyJetWallet/Service.Balances) | ![CI test build](https://github.com/MyJetWallet/Service.Balances/workflows/CI%20test%20build/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/Service.Balances/workflows/Release%20API%20client%20nuget/badge.svg) |
 [Service.BalanceHistory](https://github.com/MyJetWallet/Service.BalanceHistory) | ![CI test build](https://github.com/MyJetWallet/Service.BalanceHistory/workflows/CI%20test%20build/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/Service.BalanceHistory/workflows/Release%20API%20client%20nuget/badge.svg) |
