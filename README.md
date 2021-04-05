@@ -1,5 +1,4 @@
-# JetWallet Priject
-
+# JetWallet Service
 
 Repository | server, client 
 ---------- | -------------- 
@@ -28,4 +27,24 @@ Repository | server, client
 [Service.Bitgo.Webhooks](https://github.com/MyJetWallet/Service.Bitgo.Webhooks) | ![CI test build](https://github.com/MyJetWallet/Service.Bitgo.Webhooks/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.Bitgo.Webhooks/workflows/Release%20API%20client%20nuget/badge.svg)
 [Service.CandlesHistory](https://github.com/MyJetWallet/Service.CandlesHistory) | ![CI test build](https://github.com/MyJetWallet/Service.CandlesHistory/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.CandlesHistory/workflows/Release%20API%20client%20nuget/badge.svg)
 [Service.Bitgo.WithdrawalProcessor](https://github.com/MyJetWallet/Service.Bitgo.WithdrawalProcessor) | ![CI test build](https://github.com/MyJetWallet/Service.Bitgo.WithdrawalProcessor/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.Bitgo.WithdrawalProcessor/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.AdminPanel](https://github.com/MyJetWallet/MyJetWallet.AdminPanel) | [![CI test build](https://github.com/MyJetWallet/MyJetWallet.AdminPanel/actions/workflows/ci-test.yml/badge.svg)](https://github.com/MyJetWallet/MyJetWallet.AdminPanel/actions/workflows/ci-test.yml)
+
+
+# JetWallet Library
+
+Repository | client 
+---------- | ------
+[MyJetWallet.Sdk.Postgres](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Sdk.GrpcSchema](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcSchema) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcSchema/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Sdk.GrpcMetrics](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcMetrics) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcMetrics/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.MatchingEngine.Grpc](https://github.com/MyJetWallet/MyJetWallet.MatchingEngine.Grpc) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.MatchingEngine.Grpc/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Domain.ServiceBus](https://github.com/MyJetWallet/MyJetWallet.Domain.ServiceBus) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Domain.ServiceBus/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Domain](https://github.com/MyJetWallet/MyJetWallet.Domain) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Domain/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.BitGo](https://github.com/MyJetWallet/MyJetWallet.BitGo) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.BitGo/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.MatchingEngine.EventReader](https://github.com/MyJetWallet/MyJetWallet.MatchingEngine.EventReader) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.MatchingEngine.EventReader/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Sdk.Service](https://github.com/MyJetWallet/MyJetWallet.Sdk.Service) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Service/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Connector.Ftx](https://github.com/MyJetWallet/MyJetWallet.Connector.Ftx) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Connector.Ftx/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.BitGo.Settings](https://github.com/MyJetWallet/MyJetWallet.BitGo.Settings) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.BitGo.Settings/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Sdk.Upsert](https://github.com/MyJetWallet/MyJetWallet.Sdk.Upsert) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Upsert/workflows/Release%20API%20client%20nuget/badge.svg)
+
 
