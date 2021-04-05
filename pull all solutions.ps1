@@ -9,7 +9,8 @@ foreach ($sln in $list) {
 
     Set-Location $sln;
 
-    dotnet outdated -u
+    git pull
+
 }
 
 Set-Location @dir;

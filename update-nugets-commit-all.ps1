@@ -9,7 +9,11 @@ foreach ($sln in $list) {
 
     Set-Location $sln;
 
-    dotnet outdated -u
+    git commit -a -m "update nugets"
+
+    git pull
+
+    git push -u origin master
 }
 
 Set-Location @dir;
