@@ -45,6 +45,9 @@ Repository | client
 [MyJetWallet.Sdk.Service](https://github.com/MyJetWallet/MyJetWallet.Sdk.Service) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Service/workflows/Release%20API%20client%20nuget/badge.svg)
 [MyJetWallet.Connector.Ftx](https://github.com/MyJetWallet/MyJetWallet.Connector.Ftx) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Connector.Ftx/workflows/Release%20API%20client%20nuget/badge.svg)
 [MyJetWallet.BitGo.Settings](https://github.com/MyJetWallet/MyJetWallet.BitGo.Settings) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.BitGo.Settings/workflows/Release%20API%20client%20nuget/badge.svg)
+[MyJetWallet.Domain.ExternalMarketApi](https://github.com/MyJetWallet/MyJetWallet.Domain.ExternalMarketApi) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Domain.ExternalMarketApi/workflows/Release%20API%20client%20nuget/badge.svg)
+
+
 
 
 
