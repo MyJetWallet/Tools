@@ -32,9 +32,9 @@ Repository | server, client
 
 # JetWallet Library
 
-Repository | client 
----------- | ------
-[MyJetWallet.Sdk.Postgres](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres/workflows/Release%20API%20client%20nuget/badge.svg)
+Repository | client | ci 
+---------- | ------ | --
+[MyJetWallet.Sdk.Postgres](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres/workflows/Release%20API%20client%20nuget/badge.svg) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.Postgres/workflows/ci-test/badge.svg)
 [MyJetWallet.Sdk.GrpcSchema](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcSchema) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcSchema/workflows/Release%20API%20client%20nuget/badge.svg)
 [MyJetWallet.Sdk.GrpcMetrics](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcMetrics) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Sdk.GrpcMetrics/workflows/Release%20API%20client%20nuget/badge.svg)
 [MyJetWallet.MatchingEngine.Grpc](https://github.com/MyJetWallet/MyJetWallet.MatchingEngine.Grpc) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.MatchingEngine.Grpc/workflows/Release%20API%20client%20nuget/badge.svg)
@@ -48,6 +48,7 @@ Repository | client
 [MyJetWallet.Domain.ExternalMarketApi](https://github.com/MyJetWallet/MyJetWallet.Domain.ExternalMarketApi) | ![Release API client nuget](https://github.com/MyJetWallet/MyJetWallet.Domain.ExternalMarketApi/workflows/Release%20API%20client%20nuget/badge.svg)
 
 
+[![CI test build](https://github.com/MyJetWallet/MyJetWallet.Domain.ExternalMarketApi/actions/workflows/ci-test.yml/badge.svg)](https://github.com/MyJetWallet/MyJetWallet.Domain.ExternalMarketApi/actions/workflows/ci-test.yml)
 
 
 
