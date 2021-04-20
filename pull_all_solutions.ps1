@@ -16,3 +16,17 @@ foreach ($sln in $list) {
 Set-Location @dir;
 
 
+Set-Location "../Flutter.BusinessLogicProvider";
+git pull
+
+Set-Location "../Flutter.JetWallet";
+git pull
+
+Set-Location "../Flutter.JetWallet.Android";
+git pullcd 
+
+Set-Location "../Flutter.JetWallet.Web";
+git pull
+
+
+Set-Location @dir;
