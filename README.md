@@ -32,7 +32,10 @@ Repository | server, client
 [MyJetWallet.AdminPanel](https://github.com/MyJetWallet/MyJetWallet.AdminPanel) | [![CI test build](https://github.com/MyJetWallet/MyJetWallet.AdminPanel/actions/workflows/ci-test.yml/badge.svg)](https://github.com/MyJetWallet/MyJetWallet.AdminPanel/actions/workflows/ci-test.yml)  ![update nuget](https://github.com/MyJetWallet/MyJetWallet.AdminPanel/actions/workflows/update_nuget.yaml/badge.svg)
 [MyJetWallet.Service.Liquidity.Converter](https://github.com/MyJetWallet/Service.Liquidity.Converter) | ![CI test build](https://github.com/MyJetWallet/Service.Liquidity.Converter/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.Liquidity.Converter/workflows/Release%20API%20client%20nuget/badge.svg)  ![update nuget](https://github.com/MyJetWallet/Service.Liquidity.Converter/actions/workflows/update_nuget.yaml/badge.svg)
 [Service.External.Binance](https://github.com/MyJetWallet/Service.External.Binance) | ![CI test build](https://github.com/MyJetWallet/Service.External.Binance/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.External.Binance/workflows/Release%20API%20client%20nuget/badge.svg)  ![update nuget](https://github.com/MyJetWallet/Service.External.Binance/actions/workflows/update_nuget.yaml/badge.svg)
+[Service.Authorization](https://github.com/MyJetWallet/Service.Authorization) | ![CI test build](https://github.com/MyJetWallet/Service.Authorization/workflows/CI%20test%20build/badge.svg)  ![Release API client nuget](https://github.com/MyJetWallet/Service.Authorization/workflows/Release%20API%20client%20nuget/badge.svg)  ![update nuget](https://github.com/MyJetWallet/Service.Authorization/actions/workflows/update_nuget.yaml/badge.svg)
 
+
+Service.Authorization
 
 
 # JetWallet Library
