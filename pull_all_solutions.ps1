@@ -9,7 +9,7 @@ foreach ($sln in $list) {
 
     Set-Location $sln;
 
-    git pull
+    git pull --progress -v --no-rebase "origin" master
 
 }
 

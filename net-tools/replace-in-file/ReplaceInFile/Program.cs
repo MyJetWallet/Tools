@@ -19,7 +19,8 @@ namespace ReplaceInFile
             //ReplaceInFilesAppInsight(folder);
             //FindFileWithText(folder, "deployment.yaml", "-test:");
 
-            ReplaceInFiles(folder, "update_nuget.yaml", "uses: actions-js/push@master", "MyJetWallet/push@master");
+            //ReplaceInFiles(folder, "update_nuget.yaml", "uses: actions-js/push@master", "MyJetWallet/push@master");
+            ReplaceInFiles(folder, "update_nuget.yaml", "   MyJetWallet/push@master", "   uses: MyJetWallet/push@master");
         }
 
         private static void ReplaceInFiles(string folder, string pattern, string searchString, string replaceString)

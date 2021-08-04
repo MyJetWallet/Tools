@@ -9,17 +9,15 @@ foreach ($sln in $list) {
 
     Set-Location $sln;
 
-    if ($sln -eq "MyJetWallet.Domain") {
+    if ($sln -eq "1111111-MyJetWallet.Domain") {
         continue;
     }
-    
-    
 
-    Copy-Item D:\SimplBit\git\JetWallet\MyJetWallet.Domain\.github\workflows\update_nuget.yaml .\.github\workflows\
-
-    git commit -a -m "update notify_errors.yaml"
+    git commit -a -m "fix update_nuget.yaml"
 
     git push -u origin master
+
+    Start-Sleep -s 5
 }
 
 Set-Location @dir;
