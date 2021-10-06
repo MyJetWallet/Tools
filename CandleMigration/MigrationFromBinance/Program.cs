@@ -12,9 +12,9 @@ namespace MigrationFromBinance
 {
     class Program
     {
-        private static string _askConnectionString = "DefaultEndpointsProtocol=https;AccountName=spotuatcandlesask;AccountKey=fOWsKze/WUymoParC2st4aKJuTnZfWDf0aQrVsksGEWToVpuuR+6HqlvYM8HVaudfHTCd5SCQFkoFc4ED3t2zg==;EndpointSuffix=core.windows.net";
+        private static string _askConnectionString = "";
 
-        private static string _bidConnectionString = "DefaultEndpointsProtocol=https;AccountName=spotuatcandlesbid;AccountKey=LS2fvCOf/8HiT6mv39Diy2cgOGdNSd275ALJyZlYsXGTjU50+942F0TQGK5QFJPtyyCVvuNvjnLs8vy2QC9LNQ==;EndpointSuffix=core.windows.net";
+        private static string _bidConnectionString = "";
 
         static async Task Main(string[] args)
         {
