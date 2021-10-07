@@ -23,21 +23,20 @@ namespace MigrationFromBinance
                 () => _askConnectionString);
 
             //await LoadInstrument("USDTUSD", "BUSDUSDT", storage, 4, true);
-
-
-            //await LoadInstrument("BTCUSD", "BTCBUSD", storage, 8);
             
-            //await LoadInstrument("ETHUSD", "ETHBUSD", storage, 8);
+            await LoadInstrument("BTCUSD", "BTCBUSD", storage, 8);
+            await LoadInstrument("ETHUSD", "ETHBUSD", storage, 8);
             await LoadInstrument("EOSUSD", "EOSBUSD", storage, 8);
             await LoadInstrument("LTCUSD", "LTCBUSD", storage, 8);
             await LoadInstrument("ALGOUSD", "ALGOBUSD", storage, 8);
             await LoadInstrument("XLMUSD", "XLMBUSD", storage, 8);
+            await LoadInstrument("BCHUSD", "BCHBUSD", storage, 8);
+            await LoadInstrument("DASHUSD", "DASHBUSD", storage, 8);
 
-            
-
-
-
-            
+            await LoadInstrument("HBARUSD", "HBARBUSD", storage, 8);
+            await LoadInstrument("TRXUSD", "TRXBUSD", storage, 8);
+            await LoadInstrument("XRPUSD", "XRPBUSD", storage, 8);
+            await LoadInstrument("ZECUSD", "ZECBUSD", storage, 8);
 
 
             Console.WriteLine();
@@ -96,7 +95,8 @@ namespace MigrationFromBinance
             var data = await GetCandles(source, 1000, interval, 0, isRevert, digits);
 
             var count = 0;
-            while (data.Any() && count < 45000)
+            //while (data.Any() && count < 45000)
+            while (data.Any() && count < 3000)
             {
                 Console.Write($"Read {data.Count} items from Binance ... ");
                 await storage.BulkSave(symbol, true, digits, candle, data);
