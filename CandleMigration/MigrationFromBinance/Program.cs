@@ -24,20 +24,43 @@ namespace MigrationFromBinance
 
             //await LoadInstrument("USDTUSD", "BUSDUSDT", storage, 4, true);
             
-            await LoadInstrument("BTCUSD", "BTCBUSD", storage, 8);
-            await LoadInstrument("ETHUSD", "ETHBUSD", storage, 8);
-            await LoadInstrument("EOSUSD", "EOSBUSD", storage, 8);
-            await LoadInstrument("LTCUSD", "LTCBUSD", storage, 8);
-            await LoadInstrument("ALGOUSD", "ALGOBUSD", storage, 8);
-            await LoadInstrument("XLMUSD", "XLMBUSD", storage, 8);
-            await LoadInstrument("BCHUSD", "BCHBUSD", storage, 8);
-            await LoadInstrument("DASHUSD", "DASHBUSD", storage, 8);
-
-            await LoadInstrument("HBARUSD", "HBARBUSD", storage, 8);
-            await LoadInstrument("TRXUSD", "TRXBUSD", storage, 8);
-            await LoadInstrument("XRPUSD", "XRPBUSD", storage, 8);
-            await LoadInstrument("ZECUSD", "ZECBUSD", storage, 8);
-
+            await LoadInstrument("ALGOBTC", "ALGOBTC", storage, 8);
+            await LoadInstrument("ALGOUSD", "ALGOBUSD", storage, 4);
+            
+            await LoadInstrument("BCHBTC", "BCHBTC", storage, 6);
+            await LoadInstrument("BCHUSD", "BCHBUSD", storage, 2);
+            
+            await LoadInstrument("BTCEUR", "BTCEUR", storage, 2);
+            await LoadInstrument("BTCUSD", "BTCBUSD", storage, 2);
+            
+            await LoadInstrument("DASHBTC", "DASHBTC", storage, 6);
+            await LoadInstrument("DASHUSD", "DASHBUSD", storage, 2);
+            
+            await LoadInstrument("EOSBTC", "EOSBTC", storage, 8);
+            await LoadInstrument("EOSUSD", "EOSBUSD", storage, 2);
+            
+            await LoadInstrument("ETHBTC", "ETHBTC", storage, 8);
+            await LoadInstrument("ETHEUR", "ETHEUR", storage, 2);
+            await LoadInstrument("ETHUSD", "ETHBUSD", storage, 2);
+            
+            await LoadInstrument("LTCBTC", "LTCBTC", storage, 8);
+            await LoadInstrument("LTCUSD", "LTCBUSD", storage, 4);
+            
+            await LoadInstrument("TRXBTC", "TRXBTC", storage, 8);
+            await LoadInstrument("TRXUSD", "TRXBUSD", storage, 6);
+            
+            await LoadInstrument("XLMBTC", "XLMBTC", storage, 8);
+            await LoadInstrument("XLMUSD", "XLMBUSD", storage, 5);
+            
+            await LoadInstrument("XRPBTC", "XRPBTC", storage, 8);
+            await LoadInstrument("XRPUSD", "XRPBUSD", storage, 6);
+            
+            await LoadInstrument("ZECBTC", "ZECBTC", storage, 8);
+            await LoadInstrument("ZECUSD", "ZECBUSD", storage, 2);
+            
+            
+            
+            
 
             Console.WriteLine();
             Console.WriteLine("End of loading");
@@ -95,8 +118,8 @@ namespace MigrationFromBinance
             var data = await GetCandles(source, 1000, interval, 0, isRevert, digits);
 
             var count = 0;
-            //while (data.Any() && count < 45000)
-            while (data.Any() && count < 3000)
+            while (data.Any() && count < 45000)
+            //while (data.Any() && count < 3000)
             {
                 Console.Write($"Read {data.Count} items from Binance ... ");
                 await storage.BulkSave(symbol, true, digits, candle, data);
