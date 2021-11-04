@@ -24,6 +24,12 @@ namespace MigrationFromBinance
 
             //await LoadInstrument("USDTUSD", "BUSDUSDT", storage, 4, true);
             
+            //await LoadInstrument("testBTCUSD", "BTCBUSD", storage, 8);
+            //await LoadInstrument("testETHUSD", "ETHBUSD", storage, 8);
+            //await LoadInstrument("testXLMUSD", "XLMBUSD", storage, 8);
+            
+            
+            /*
             await LoadInstrument("ALGOBTC", "ALGOBTC", storage, 8);
             await LoadInstrument("ALGOUSD", "ALGOBUSD", storage, 4);
             
@@ -57,20 +63,10 @@ namespace MigrationFromBinance
             
             await LoadInstrument("ZECBTC", "ZECBTC", storage, 8);
             await LoadInstrument("ZECUSD", "ZECBUSD", storage, 2);
-            
-            
-            
-            
-
+            */
             Console.WriteLine();
             Console.WriteLine("End of loading");
             Console.ReadLine();
-
-
-
-
-
-
         }
 
         private static async Task LoadInstrument(string symbol, string source, CandlesPersistentAzureStorage storage,
@@ -118,8 +114,8 @@ namespace MigrationFromBinance
             var data = await GetCandles(source, 1000, interval, 0, isRevert, digits);
 
             var count = 0;
-            while (data.Any() && count < 45000)
-            //while (data.Any() && count < 3000)
+            //while (data.Any() && count < 45000)
+            while (data.Any() && count < 3000)
             {
                 Console.Write($"Read {data.Count} items from Binance ... ");
                 await storage.BulkSave(symbol, true, digits, candle, data);
